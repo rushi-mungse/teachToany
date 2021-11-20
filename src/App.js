@@ -1,10 +1,18 @@
 import './App.css';
+import Navigation from './components/Navigation/Navigation';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <div>
-      <h>This is teachToany web app!</h>
-    </div>
+    <>
+      <Router>
+        <Navigation />
+        <Routes>
+          <Route path='/' exact element={<Home/>}/>
+        </Routes>
+      </Router>
+    </>
   );
 }
 

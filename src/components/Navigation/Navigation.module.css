@@ -1,0 +1,23 @@
+nav {
+  background-color: #fff;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_wrapper {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+.logo_wrap{
+    height: 35px;
+}
